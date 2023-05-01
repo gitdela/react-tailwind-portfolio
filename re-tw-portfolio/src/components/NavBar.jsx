@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import BrandName from '../assets/logo.png';
 
 const NavBar = () => {
   const [nav, setNav] = useState(true);
@@ -32,9 +33,10 @@ const NavBar = () => {
     <div className='bg-black flex justify-between items-center w-full px-4 h-20 text-gray-500 fixed'>
       {/* first element here is the logo wrapped in h1 */}
       {/* you can choose to make it an image */}
-      <h1 className='text-4xl text-white font-bold ml-2'>
+      <img src={BrandName} className='h-2/5 md:h-1/2' alt='' />
+      {/* <h1 className='text-4xl text-white font-bold ml-2'>
         <span className='text-red-600'>KEN</span>NARTEY
-      </h1>
+      </h1> */}
 
       {/* second element is the navigation ul */}
       {/* this ul hides or display flex depending on the screen size */}
