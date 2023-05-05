@@ -17,7 +17,7 @@ const Home = () => {
           <h2 className='text-4xl md:text-5xl font-bold text-white'>
             I am a Full Stack Developer
           </h2>
-          <p className='text-gray-500 py-4'>
+          <p className='text-gray-500 py-4 text-xl'>
             I am a self taught front end developer of 2 years. I have been
             coding for Lorem ipsum dolor sit amet consectetur adipisicing elit.
             At, deleniti odio deserunt officia minus consequuntur.
