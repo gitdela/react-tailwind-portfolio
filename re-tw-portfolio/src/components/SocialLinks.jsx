@@ -77,7 +77,7 @@ const SocialLinks = () => {
           <li
             key={id}
             // here's where template literals came in to help your boy in adding the var style
-            className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 md:ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 ${style}`}
+            className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 md:ml-[-100px] hover:ml-[-5px] font-bold hover:rounded-md duration-300 ${style}`}
           >
             {/* both the name and icon need to be in a row, that's why the flex
             container  */}
