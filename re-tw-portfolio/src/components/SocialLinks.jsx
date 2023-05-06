@@ -65,7 +65,7 @@ const SocialLinks = () => {
   ];
   return (
     // this flex container is directing everything vertically
-    <div className='hidden lg:flex flex-col fixed top-[30%] left-0'>
+    <div className='hidden lg:flex flex-col fixed top-[33%] left-0'>
       <ul>
         {/* again, create one of the social links before you put it into a logic like this */}
         {/* when you destructure like below, don't forget to put it in curly brackets */}
