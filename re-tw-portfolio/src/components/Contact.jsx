@@ -6,7 +6,7 @@ const Contact = () => {
       name='contact'
       className='w-full bg-gradient-to-b from-black to-gray-800 p-4 text-white md:h-screen'
     >
-      <div className='flex flex-col max-w-screen-lg justify-center mx-auto h-full'>
+      <div className='flex flex-col max-w-screen-lg md:text-center justify-center mx-auto h-full'>
         <div className='pt-20 pb-4 md:pt-10'>
           {/* so the inline class makes it only underline the contact and nit the whole p container */}
           <p className='text-3xl font-bold inline p-1 pl-0 border-b-4 border-gray-500 md:text-4xl'>
