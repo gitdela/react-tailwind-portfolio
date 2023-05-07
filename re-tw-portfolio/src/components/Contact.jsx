@@ -4,12 +4,12 @@ const Contact = () => {
   return (
     <div
       name='contact'
-      className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'
+      className='w-full bg-gradient-to-b from-black to-gray-800 p-4 text-white md:h-screen'
     >
-      <div className='flex flex-col max-w-screen-lg mx-auto h-full'>
-        <div className='pb-4 text-center'>
+      <div className='flex flex-col max-w-screen-lg justify-center mx-auto h-full'>
+        <div className='pt-20 pb-4 md:pt-10'>
           {/* so the inline class makes it only underline the contact and nit the whole p container */}
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
+          <p className='text-3xl font-bold inline p-1 pl-0 border-b-4 border-gray-500 md:text-4xl'>
             Contact
           </p>
           <p className='py-6 text-lg'>
@@ -20,7 +20,7 @@ const Contact = () => {
           {/* first time i used the space class in this project */}
           <form
             action='https://getform.io/f/87827c03-e3c4-4fd9-8a72-bcd46aeac603'
-            className='flex flex-col w-full md:w-1/2 space-y-8'
+            className='flex flex-col w-full md:w-2/3 space-y-4'
             method='POST'
           >
             <input
@@ -43,7 +43,7 @@ const Contact = () => {
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             ></textarea>
 
-            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
+            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-5 py-2 md:px-6 md:py-3 text-sm md:text-base mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
               Let's talk
             </button>
           </form>

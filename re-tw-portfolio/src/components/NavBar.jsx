@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import BrandName from '../assets/logo.png';
+import { Link, link } from 'react-scroll';
 
 const NavBar = () => {
   const [nav, setNav] = useState(true);
@@ -49,7 +50,10 @@ const NavBar = () => {
             key={id}
             className='px-4 cursor-pointer capitalize font-bold text-lg text-gray-500 hover:scale-105 duration-200'
           >
-            {link}
+            {/* it was just {link} but because of react-scroll i put it in a <Link> tag */}
+            <Link to={link} smooth duration={500}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
@@ -89,9 +93,21 @@ const NavBar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className='px-4 cursor-pointer capitalize py-6 text-4xl'
+              className='px-4 cursor-pointer font-bold capitalize py-6 text-3xl'
             >
-              {link}
+              {/* it was just {link} but because of react-scroll i put it in a <Link> tag */}
+              {/* with the link, it needs a 'to' to know where it is going */}
+              {/* that's why we put 'name' on the sections */}
+              {/* and using the small letter for links make it easy to use it for links here too */}
+              {/* killing two birds with one stone */}
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>
