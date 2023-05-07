@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import BrandName from '../assets/logo.png';
-import { Link, link } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
   const [nav, setNav] = useState(true);
