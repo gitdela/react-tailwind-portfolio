@@ -32,6 +32,7 @@ const Home = () => {
       id: 4,
       child: <FaMedium size={20} />,
       href: 'https://medium.com/@selftalkdeveloper',
+      color: 'text-white',
     },
     {
       id: 5,
@@ -65,7 +66,7 @@ const Home = () => {
                 >
                   <a
                     href={href}
-                    className={`flex justify-between items-center w-full text-white hover:scale-110 duration-200 ${color}`}
+                    className={`flex justify-between items-center w-full hover:scale-110 duration-200 ${color}`}
                     target='_blank'
                     rel='noreferrer'
                   >
