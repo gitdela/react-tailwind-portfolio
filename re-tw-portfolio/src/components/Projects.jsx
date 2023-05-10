@@ -31,19 +31,19 @@ const Portfolio = () => {
   ];
   return (
     <div
-      name='portfolio'
+      name='projects'
       className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'
     >
       <div className='max-w-screen-lg px-4 pb-12 mx-auto flex flex-col justify-center w-full h-full md:pb-0'>
         <div className='pt-20 pb-8'>
-          <p className='text-3xl font-bold inline p-1 pl-0 border-b-2 md:border-b-4 border-gray-500 md:text-4xl'>
-            Portfolio
+          <p className='text-3xl font-bold inline p-1 pl-0 md:text-4xl'>
+            Projects
           </p>
           <p className='py-6 text-md md:text-xl'>
             Check out some of my work right here
           </p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 sm:px-0'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 space-y-4 sm:px-0'>
           {portfolios.map(({ id, portName, src, link, code }) => (
             <div
               key={id}
@@ -52,7 +52,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=''
-                className='rounded-md duration-200 hover:scale-105'
+                className='rounded-md duration-200 lg:hover:scale-105'
               />
               <div>
                 <p className='m-1 pt-2 md:m-2 md:p-2 text-center font-bold'>

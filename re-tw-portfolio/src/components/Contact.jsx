@@ -9,7 +9,7 @@ const Contact = () => {
       <div className='flex flex-col max-w-screen-lg md:text-center justify-center mx-auto h-full'>
         <div className='pt-20 pb-4 md:pt-10'>
           {/* so the inline class makes it only underline the contact and nit the whole p container */}
-          <p className='text-3xl font-bold inline p-1 pl-0 border-b-4 border-gray-500 md:text-4xl'>
+          <p className='text-3xl font-bold inline p-1 pl-0 md:text-4xl'>
             Contact
           </p>
           <p className='py-6 text-lg'>
@@ -43,7 +43,7 @@ const Contact = () => {
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             ></textarea>
 
-            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-5 py-2 md:px-6 md:py-3 text-sm md:text-base mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
+            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-8 py-4 mt-8 md:px-6 md:py-3 text-sm md:text-base mx-auto flex items-center rounded-md hover:scale-110 duration-300'>
               Let's talk
             </button>
           </form>
