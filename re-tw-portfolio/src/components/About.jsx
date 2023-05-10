@@ -16,10 +16,12 @@ const About = () => {
           </p>
         </div>
         <p className='text-md md:text-xl'>
-          A web developer with a passion for creating beautiful, user-friendly
-          websites. I worked in sales for a few years before deciding to pursue
-          my dream of becoming a software engineer. I taught myself HTML, CSS,
-          JavaScript, Bootstrap, TailwindCSS and React.
+          I've always been drawn to the world of programming, and after spending
+          some time working in telecommunications, and then sales, I decided to
+          take a leap of faith and pursue my dream of becoming a software
+          engineer. Through dedicated self-study and hands-on experience, I've
+          mastered HTML, CSS, JavaScript, and frameworks like TailwindCSS, React
+          and Bootstrap.
         </p>
 
         <br />
@@ -27,10 +29,22 @@ const About = () => {
         <p className='text-md md:text-xl'>
           In my free time, I enjoy exploring new technologies and tinkering with
           personal projects. I'm a strong believer in the power of lifelong
-          learning and am always looking for ways to improve my skills and stay
+          learning and I'm always looking for ways to improve my skills and stay
           up-to-date with the latest trends in web development. I'm excited to
-          connect with other professionals in the industry and explore
-          opportunities to use my skills to make a positive impact. Let's chat!
+          work with other professionals in the industry and explore
+          opportunities to use my skills to make a positive impact.
+          <br /> <br />
+          To learn more about my journey and how I embraced the change to Web
+          Development, click the link to read my{' '}
+          <a
+            href='https://selftalkdeveloper.medium.com/leaping-into-the-unknown-my-career-change-to-web-d-86fdf7a0e1d8'
+            target='_blank'
+            className='text-pink-600 font-bold underline'
+            rel='noreferrer'
+          >
+            Medium blog post
+          </a>
+          .
         </p>
       </div>
     </div>

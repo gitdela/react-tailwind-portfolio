@@ -63,7 +63,7 @@ const Experience = () => {
             Skills
           </p>
           <p className='py-6 text:md md:text-xl'>
-            These are the technologies I've worked with
+            These are the technologies I've worked with so far
           </p>
         </div>
 

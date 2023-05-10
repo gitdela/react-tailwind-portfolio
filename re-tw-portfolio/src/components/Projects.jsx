@@ -40,7 +40,8 @@ const Portfolio = () => {
             Projects
           </p>
           <p className='py-6 text-md md:text-xl'>
-            Check out some of my work right here
+            Check out some of my work right here. Click on Code to read about
+            the project under README.md, and Demo, to go to the live website.
           </p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 space-y-4 sm:px-0'>
