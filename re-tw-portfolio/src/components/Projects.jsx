@@ -1,7 +1,7 @@
 import React from 'react';
 import eCommerce from '../assets/portfolio/e-commerce.jpg';
 import manage from '../assets/portfolio/manage.jpg';
-import portfolio from '../assets/portfolio/portfolio.jpg';
+import teams from '../assets/portfolio/team-working.jpg';
 
 const Portfolio = () => {
   function runLinks(link) {
@@ -11,22 +11,22 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      portName: 'Team Member Allocation App',
+      src: teams,
+    },
+    {
+      id: 2,
       portName: 'HTML CSS JS eCommerce',
       src: eCommerce,
       link: 'https://gitdela.github.io/e-commerce-pf/',
       code: 'https://github.com/gitdela/e-commerce-pf',
     },
     {
-      id: 2,
+      id: 3,
       portName: 'TailwindCSS Landing Page',
       src: manage,
       link: 'https://gitdela.github.io/tailwind-landing-page/',
       code: 'https://github.com/gitdela/tailwind-landing-page',
-    },
-    {
-      id: 3,
-      portName: 'React TailwindCSS Portfolio',
-      src: portfolio,
     },
   ];
   return (
@@ -40,8 +40,11 @@ const Portfolio = () => {
             Projects
           </p>
           <p className='py-6 text-md md:text-xl'>
-            Check out some of my work right here. Click on Code to read about
-            the project under README.md, and Demo, to go to the live website.
+            Check out some of my work right here. Click on{' '}
+            <span className='text-cyan-600'>Code</span> to read about the
+            project under <span className='text-cyan-600'>README.md</span> and
+            go through the code. Or <span className='text-cyan-600'>Demo</span>,
+            to go to the live website.
           </p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 space-y-4 sm:px-0'>
