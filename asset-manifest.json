@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-tailwind-portfolio/static/css/main.0833745a.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.bdbcbee5.js",
-    "static/media/portfolio.jpg": "/react-tailwind-portfolio/static/media/portfolio.49c130d033359e1c5bb5.jpg",
+    "main.css": "/react-tailwind-portfolio/static/css/main.e360a6f7.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.4ae85a75.js",
+    "static/media/team-working.jpg": "/react-tailwind-portfolio/static/media/team-working.bfac34119c563a3eb235.jpg",
     "static/media/HeroImage.jpeg": "/react-tailwind-portfolio/static/media/HeroImage.94a54d6d7d67d5dd25fd.jpeg",
     "static/media/manage.jpg": "/react-tailwind-portfolio/static/media/manage.f69ac0e99ceaec7907dd.jpg",
     "static/media/e-commerce.jpg": "/react-tailwind-portfolio/static/media/e-commerce.63f032e2b19dd77d3ee7.jpg",
@@ -14,11 +14,11 @@
     "static/media/css.png": "/react-tailwind-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-tailwind-portfolio/index.html",
-    "main.0833745a.css.map": "/react-tailwind-portfolio/static/css/main.0833745a.css.map",
-    "main.bdbcbee5.js.map": "/react-tailwind-portfolio/static/js/main.bdbcbee5.js.map"
+    "main.e360a6f7.css.map": "/react-tailwind-portfolio/static/css/main.e360a6f7.css.map",
+    "main.4ae85a75.js.map": "/react-tailwind-portfolio/static/js/main.4ae85a75.js.map"
   },
   "entrypoints": [
-    "static/css/main.0833745a.css",
-    "static/js/main.bdbcbee5.js"
+    "static/css/main.e360a6f7.css",
+    "static/js/main.4ae85a75.js"
   ]
 }
