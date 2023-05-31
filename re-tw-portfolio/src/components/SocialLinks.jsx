@@ -58,7 +58,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/ken_nartey_cv.pdf',
+      href: '/src/assets/portfolio/ken_nartey_cv.pdf',
       style: 'rounded-br-md',
       download: true,
     },

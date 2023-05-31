@@ -13,6 +13,8 @@ const Portfolio = () => {
       id: 1,
       portName: 'Team Member Allocation App',
       src: teams,
+      link: 'https://gitdela.github.io/team-member-allocation/',
+      code: 'https://github.com/gitdela/team-member-allocation',
     },
     {
       id: 2,
