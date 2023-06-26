@@ -1,7 +1,8 @@
 import React from 'react';
 import eCommerce from '../assets/portfolio/e-commerce.jpg';
-import manage from '../assets/portfolio/manage.jpg';
+// import manage from '../assets/portfolio/manage.jpg';
 import teams from '../assets/portfolio/team-working.jpg';
+import todolist from '../assets/portfolio/to-do-list.jpg';
 
 const Portfolio = () => {
   function runLinks(link) {
@@ -17,18 +18,18 @@ const Portfolio = () => {
       code: 'https://github.com/gitdela/team-member-allocation',
     },
     {
+      id: 3,
+      portName: 'Persistent To-Do List',
+      src: todolist,
+      link: 'https://gitdela.github.io/to-do-list-basic/',
+      code: 'https://github.com/gitdela/to-do-list-basic',
+    },
+    {
       id: 2,
       portName: 'HTML CSS JS eCommerce',
       src: eCommerce,
       link: 'https://gitdela.github.io/e-commerce-pf/',
       code: 'https://github.com/gitdela/e-commerce-pf',
-    },
-    {
-      id: 3,
-      portName: 'TailwindCSS Landing Page',
-      src: manage,
-      link: 'https://gitdela.github.io/tailwind-landing-page/',
-      code: 'https://github.com/gitdela/tailwind-landing-page',
     },
   ];
   return (
